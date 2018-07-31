@@ -9,13 +9,13 @@ class Ideone
 {
 	public static void main (String[] args)
 	{
-		int a,i,sum=0;
+		int b,i,s=0;
 		Scanner s=new Scanner(System.in);
-		a=s.nextInt();
-		for(i=0;i<=a;i++)
+		b=s.nextInt();
+		for(i=0;i<=b;i++)
 		{
-			sum=sum+i;
+			s=s+i;
 		}
-		System.out.println(sum);
+		System.out.println(s);
 	}
 }
