@@ -11,16 +11,15 @@ class Ideone
 	{
 		// your code goes here
 		
-        int num, sum = 0;
+        int a;
+        int sum=0;
         Scanner s=new Scanner(System.in);
-        num=s.nextInt();
-
-        for(int i = 1; i <= num; ++i)
+        a=s.nextInt();
+        for(int i = 1; i <=a;++i)
         {
-            // sum = sum + i;
-            sum += i;
+            sum=sum+i;
         }
 
-        System.out.println(" " + sum);
+        System.out.println(" " +sum);
 	}
 }
